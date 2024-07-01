@@ -1,0 +1,110 @@
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .card-favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .card-details {
+    padding: 10px;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 5px;
+  }
+  
+  .card-rating {
+    color: gold;
+  }
+  
+  .card-rating .filled {
+    color: gold;
+  }
+  
+  .card-rating span {
+    font-size: 16px;
+  }
+  
+  .card-tags {
+    margin-top: 10px;
+  }
+  
+  .card-tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+  }
+  
+  .card-buy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-buy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-offer {
+    font-size: 14px;
+    color: purple;
+  }
+  
